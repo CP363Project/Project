@@ -1,0 +1,47 @@
+Project Report: Database Design Document
+1. Introduction
+
+Purpose of the Database: The database is designed to manage and store comprehensive information about students, their academic records, and course details at a university.
+Scope: The database includes student personal and academic information, course enrollment details, and differentiates between domestic and international students, as well as students pursuing major and minor degrees.
+Stakeholders: Primary users are the university administrative staff and academic departments.
+2. Database Requirements
+
+Functional Requirements: Store and manage student personal information, academic records, course details, and information about major and minor degrees.
+Non-Functional Requirements: The database will run on a MySQL server on a Windows operating system. Access to data will be through DOS command windows, without the use of third-party tools like MySQL Workbench or phpMyAdmin.
+3. Database Design
+
+ERD (Entity-Relationship Diagram): [Include the ERD link here]. The database consists of entities such as Student, Course, Registration, etc., with relationships indicating enrollment, academic performance, and personal details.
+Normalization: The database design follows normalization rules up to 3NF to reduce data redundancy and improve data integrity.
+Table Definitions: Tables include Student (Student ID, First Name, Last Name, etc.), Course (Course Code, Instructor Name, etc.), Registration (Student ID, Course Code, Registration Date), etc.
+4. Data Handling
+
+Data Input: Data will be inputted through SQL INSERT statements executed in the DOS command window.
+Data Retrieval: Data can be retrieved using SELECT queries. For example, to fetch a student's academic record: SELECT * FROM Academic_Records WHERE Student_ID = 'XYZ';.
+5. Special Considerations
+
+Major and Minor Degrees: The database includes fields in the Student table to indicate if a student is enrolled in a major and/or minor degree.
+Domestic and International Students: A boolean field in the Student table indicates whether a student is domestic or international.
+6. Security and Privacy
+
+Data Protection: Basic security measures include password-protected database access.
+Access Control: User privileges will be managed through MySQL's user account management system.
+7. Implementation
+
+Setup Instructions: Detailed steps for installing MySQL Server on Windows.
+Database Initialization: SQL scripts for creating tables and initial data population.
+8. Testing
+
+Test Cases: Include test cases for data insertion, update, deletion, and retrieval.
+Results and Analysis: Document the outcomes of the test cases and any modifications made to the database design based on these results.
+9. Conclusion
+
+Summary: The database effectively meets the requirements for managing student and course information at the university.
+Future Work: Potential future enhancements could include web-based interfaces for easier data management and reporting features.
+10. Appendices
+
+SQL Scripts: Scripts for creating tables, constraints, and sample data insertions.
+Sample Queries: Examples of queries for common data retrieval scenarios.
+11. References
+
+MySQL Documentation
+Database Design Best Practices
