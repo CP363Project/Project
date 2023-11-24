@@ -57,8 +57,8 @@ CREATE TABLE Contact_Information (
 );
 
 CREATE TABLE Extracurricular (
-    Club_ID VARCHAR(50) NOT NULL,
-    Job_ID VARCHAR(50) NOT NULL,
+    Club_ID VARCHAR(50) PRIMARY KEY NOT NULL,
+    Job_ID VARCHAR(50) PRIMARY KEY NOT NULL,
     Student_ID INT NOT NULL,
     FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID) NOT NULL
 );
