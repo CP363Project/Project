@@ -1,12 +1,13 @@
 CREATE TABLE Student (
-    Student_ID INT PRIMARY KEY NOT NULL,
+    Student_ID INT NOT NULL,
     First_Name VARCHAR(50) NOT NULL,
     Last_Name VARCHAR(50) NOT NULL,
     Gender VARCHAR(20) NOT NULL,
     Pronouns VARCHAR(20) NOT NULL,
     International_Student BOOLEAN NOT NULL,
     Date_of_Admission DATE NOT NULL,
-    Overall_GPA DECIMAL(3, 2) CHECK (Overall_GPA >= 0)
+    Overall_GPA DECIMAL(3, 2) CHECK (Overall_GPA >= 0),
+    PRIMARY KEY (Student_ID)
 );
 
 CREATE TABLE Course (
@@ -25,9 +26,10 @@ CREATE TABLE Course (
 
 CREATE TABLE Registration (
     Student_ID INT NOT NULL,
-    Course_Code VARCHAR(15) PRIMARY KEY NOT NULL,
+    Course_Code VARCHAR(15) NOT NULL,
     Registration_Date DATE NOT NULL,
-    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID) NOT NULL
+    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID) NOT NULL,
+    PRIMARY KEY (Course_Code)
 );
 
 CREATE TABLE Location (
@@ -57,10 +59,11 @@ CREATE TABLE Contact_Information (
 );
 
 CREATE TABLE Extracurricular (
-    Club_ID VARCHAR(50) PRIMARY KEY NOT NULL,
-    Job_ID VARCHAR(50) PRIMARY KEY NOT NULL,
+    Club_ID VARCHAR(50) NOT NULL,
+    Job_ID VARCHAR(50) NOT NULL,
     Student_ID INT NOT NULL,
-    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID) NOT NULL
+    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID) NOT NULL,
+    PRIMARY KEY (Club_ID, Job_ID)
 );
 
 CREATE TABLE Jobs (
