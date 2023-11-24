@@ -92,5 +92,5 @@ CREATE TABLE Second_Major (
     Student_ID_2 INT NOT NULL,
     School_Name_2 VARCHAR(50) NOT NULL,
     Student_Email_2 VARCHAR(50) NOT NULL,
-    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID),
+    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID)
 );
