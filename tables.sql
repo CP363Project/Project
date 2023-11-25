@@ -21,7 +21,7 @@ CREATE TABLE Course (
     Final_Exam_Grade DECIMAL(3, 2) NOT NULL,
     Final_Grade DECIMAL(3, 2),
     Completion_Status BOOLEAN NOT NULL,
-    FOREIGN KEY (Course_Code) REFERENCES Course(Course_Code) NOT NULL
+    FOREIGN KEY (Course_Code) REFERENCES Registration(Course_Code) NOT NULL
 );
 
 CREATE TABLE Registration (
