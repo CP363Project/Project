@@ -2,7 +2,7 @@ CREATE TABLE Student (
     Student_ID INT NOT NULL,
     First_Name VARCHAR(50) NOT NULL,
     Last_Name VARCHAR(50) NOT NULL,
-    Gender VARCHAR(20) NOT NULL,
+    Gender VARCHAR(20),
     Pronouns VARCHAR(20) NOT NULL,
     International_Student BOOLEAN NOT NULL,
     Date_of_Admission DATE NOT NULL,
