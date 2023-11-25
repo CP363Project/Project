@@ -28,10 +28,11 @@ CREATE TABLE Registration (
     Student_ID INT NOT NULL,
     Course_Code VARCHAR(15) NOT NULL,
     Registration_Date DATE NOT NULL,
-    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID) NOT NULL,
+    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID),
     FOREIGN KEY (Course_Code) REFERENCES Course(Course_Code),
     PRIMARY KEY (Student_ID, Course_Code)
 );
+
 
 CREATE TABLE Location (
     Address VARCHAR(100) NOT NULL,
@@ -40,8 +41,9 @@ CREATE TABLE Location (
     Country VARCHAR(50) NOT NULL,
     Postal_Code VARCHAR(10) NOT NULL,
     Student_ID INT NOT NULL,
-    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID) NOT NULL
+    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID)
 );
+
 
 CREATE TABLE Contact_Information (
     Student_Email VARCHAR(100),
@@ -56,27 +58,30 @@ CREATE TABLE Contact_Information (
     Emergency_Contact_Number_2 VARCHAR(15) NOT NULL,
     Emergency_Contact_Email_2 VARCHAR(50) NOT NULL,
     Student_ID INT NOT NULL,
-    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID) NOT NULL
-);
-
-CREATE TABLE Extracurricular (
-    Club_ID VARCHAR(50) NOT NULL,
-    Job_ID VARCHAR(50) NOT NULL,
-    Student_ID INT NOT NULL,
-    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID) NOT NULL,
-    PRIMARY KEY (Club_ID, Job_ID)
+    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID)
 );
 
 CREATE TABLE Jobs (
-    Job_ID INT NOT NULL,
+    Job_ID VARCHAR(50) NOT NULL,
     Job_Name VARCHAR(50) NOT NULL,
-    FOREIGN KEY (Job_ID) REFERENCES Extracurricular(Job_ID) NOT NULL
+    PRIMARY KEY (Job_ID)
 );
 
+
+
 CREATE TABLE Clubs (
-    Club_ID INT NOT NULL,
+    Club_ID VARCHAR(50) NOT NULL,
     Club_Name VARCHAR(50) NOT NULL,
-    FOREIGN KEY (Club_ID) REFERENCES Extracurricular(Club_ID) NOT NULL
+    PRIMARY KEY (Club_ID)
+);
+
+CREATE TABLE Extracurricular (
+    Club_ID VARCHAR(50),
+    Job_ID VARCHAR(50),
+    Student_ID INT NOT NULL,
+    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID),
+    FOREIGN KEY (Club_ID) REFERENCES Clubs(Club_ID),
+    FOREIGN KEY (Job_ID) REFERENCES Jobs(Job_ID)
 );
 
 CREATE TABLE Graduate (
@@ -85,8 +90,9 @@ CREATE TABLE Graduate (
     Program_Minor VARCHAR(50) NOT NULL,
     Double_Degree BOOLEAN NOT NULL,
     Student_ID INT NOT NULL,
-    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID) NOT NULL
+    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID)
 );
+
 
 CREATE TABLE Second_Major (
     Student_ID INT NOT NULL,
