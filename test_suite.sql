@@ -1,5 +1,5 @@
 INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (101, 'Alice', 'Smith', 'Female', '2022-01-15', 3.8);
-INSERT INTO Course (Course_Code, Semester, Instructor_Name) VALUES ('CS101', 'Fall 2022', 'Dr. John Doe');
+INSERT INTO Course (Course_Code, Course_Name, Semester, Instructor_Name, Midterm_1_Grade, Midterm_2_Grade, Project_Grade, Final_Exam_Grade, Final_Grade, Completion_Status) VALUES ('CS101', 'Fall 2022', 'Dr. John Doe');
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (999, 'CS101', '2022-09-01');
 SELECT * FROM Student WHERE Student_ID = 101;
 UPDATE Student SET Overall_GPA = 3.9 WHERE Student_ID = 101;
@@ -138,7 +138,6 @@ INSERT INTO Contact_Information (Student_Email,
     Emergency_Contact_Email_2,
     Student_ID) VALUES ('clifford@mylaurier.ca', 'clifford@uwaterloo.ca', 0000000010, 'Laurier', 'UWaterloo', 'first19', 'last19', 19, 'first20', 'last20', 20, 010);
 
-
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (001, 'CP104', '2022-09-01');
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (002, 'CP164', '2022-09-01');
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (003, 'ES110', '2022-09-01');
@@ -166,3 +165,103 @@ INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Do
 INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Double_Degree, Student_ID)VALUES (3.5, 'Engineering', NULL, TRUE, 008);
 INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Double_Degree, Student_ID)VALUES (3.7, 'Biology', 'Chemistry', FALSE, 009);
 
+INSERT INTO Course (Course_Code, 
+    Course_Name, 
+    Semester, 
+    Instructor_Name, 
+    Midterm_1_Grade, 
+    Midterm_2_Grade, 
+    Project_Grade, 
+    Final_Exam_Grade, 
+    Final_Grade, 
+    Completion_Status) VALUES ('CS101', 'Fall 2022', 'Dr. John Doe');
+INSERT INTO Course (Course_Code, 
+    Course_Name, 
+    Semester, 
+    Instructor_Name, 
+    Midterm_1_Grade, 
+    Midterm_2_Grade, 
+    Project_Grade, 
+    Final_Exam_Grade, 
+    Final_Grade, 
+    Completion_Status) VALUES ('ES110', 'Fall 2022', 'Dr. Robert Mcleman'); 
+INSERT INTO Course (Course_Code, 
+    Course_Name, 
+    Semester, 
+    Instructor_Name, 
+    Midterm_1_Grade, 
+    Midterm_2_Grade, 
+    Project_Grade, 
+    Final_Exam_Grade, 
+    Final_Grade, 
+    Completion_Status) VALUES ('CP104', 'Fall 2022', 'Dr. David Brown');
+INSERT INTO Course (Course_Code, 
+    Course_Name, 
+    Semester, 
+    Instructor_Name, 
+    Midterm_1_Grade, 
+    Midterm_2_Grade, 
+    Project_Grade, 
+    Final_Exam_Grade, 
+    Final_Grade, 
+    Completion_Status) VALUES ('DATA100', 'Fall 2022', 'Dr. Shengda Hu');
+INSERT INTO Course (Course_Code, 
+    Course_Name, 
+    Semester, 
+    Instructor_Name, 
+    Midterm_1_Grade, 
+    Midterm_2_Grade, 
+    Project_Grade, 
+    Final_Exam_Grade, 
+    Final_Grade, 
+    Completion_Status) VALUES ('MA103', 'Fall 2022', 'Dr. Fei Xu');
+INSERT INTO Course (Course_Code, 
+    Course_Name, 
+    Semester, 
+    Instructor_Name, 
+    Midterm_1_Grade, 
+    Midterm_2_Grade, 
+    Project_Grade, 
+    Final_Exam_Grade, 
+    Final_Grade, 
+    ompletion_Status) VALUES ('CP164', 'Winter 2023', 'Dr. David Brown');
+INSERT INTO Course (Course_Code, 
+    Course_Name, 
+    Semester, 
+    Instructor_Name, 
+    Midterm_1_Grade, 
+    Midterm_2_Grade, 
+    Project_Grade, 
+    Final_Exam_Grade, 
+    Final_Grade, 
+    Completion_Status) VALUES ('UU100', 'Winter 2023', 'Dr. Susan Cole');
+INSERT INTO Course (Course_Code, 
+    Course_Name, 
+    Semester, 
+    Instructor_Name, 
+    Midterm_1_Grade, 
+    Midterm_2_Grade, 
+    Project_Grade, 
+    Final_Exam_Grade, 
+    Final_Grade, 
+    Completion_Status) VALUES ('UU101', 'Winter 2023', 'Dr. Livia Dittmer');
+INSERT INTO Course (Course_Code, 
+    Course_Name, 
+    Semester, 
+    Instructor_Name, 
+    Midterm_1_Grade, 
+    Midterm_2_Grade, 
+    Project_Grade, 
+    Final_Exam_Grade, 
+    Final_Grade, 
+    Completion_Status) VALUES ('MA120', 'Winter 2023', 'Dr. Robert Rundle');
+INSERT INTO Course (Course_Code, 
+    Course_Name, 
+    Semester, 
+    Instructor_Name, 
+    Midterm_1_Grade, 
+    Midterm_2_Grade, 
+    Project_Grade, 
+    Final_Exam_Grade, 
+    Final_Grade, 
+    Completion_Status) VALUES ('MA170', 'Winter 2023', 'Mr.Andrew Kabbes');
