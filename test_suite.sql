@@ -142,12 +142,12 @@ INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (00
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (002, 'CP164', '2022-09-01');
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (003, 'ES110', '2022-09-01');
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (004, 'MA103', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (005, 'MA121', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (006, 'MA122', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (007, 'DATA100', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (008, 'CP102', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (009, 'PS101', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (010, 'GG101', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (005, 'CP104', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (006, 'MA103', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (007, 'CP164', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (008, 'CP104', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (009, 'MA122', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (010, 'ES110', '2022-09-01');
 
 INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('123 Main St', 'Waterloo', 'Ontario', 'Canada', 'N2L 3C5', 001);
 INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('456 Oak St', 'Toronto', 'Ontario', 'Canada', 'M4W 2H1', 002);
@@ -174,7 +174,7 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    Completion_Status) VALUES ('CS101', 'Fall 2022', 'Dr. John Doe');
+    Completion_Status) VALUES ('CP104', 'Introduction to Programming', 'Fall 2022', 'Dr. Safah Bedawi', 90, NULL, NULL, 83, 86, TRUE);
 INSERT INTO Course (Course_Code, 
     Course_Name, 
     Semester, 
@@ -184,7 +184,7 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    Completion_Status) VALUES ('ES110', 'Fall 2022', 'Dr. Robert Mcleman'); 
+    Completion_Status) VALUES ('CP164', 'Introduction to Programming', 'Fall 2022', 'Dr. Safah Bedawi', 90, NULL, NULL, 83, 86, TRUE); 
 INSERT INTO Course (Course_Code, 
     Course_Name, 
     Semester, 
@@ -194,7 +194,7 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    Completion_Status) VALUES ('CP104', 'Fall 2022', 'Dr. David Brown');
+    Completion_Status) VALUES ('CP164', 'Introduction to Programming', 'Fall 2022', 'Dr. Safah Bedawi', 90, NULL, NULL, 83, 86, TRUE);
 INSERT INTO Course (Course_Code, 
     Course_Name, 
     Semester, 
