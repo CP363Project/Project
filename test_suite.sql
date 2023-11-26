@@ -139,13 +139,13 @@ INSERT INTO Contact_Information (Student_Email,
     Student_ID) VALUES ('clifford@mylaurier.ca', 'clifford@uwaterloo.ca', 0000000010, 'Laurier', 'UWaterloo', 'first19', 'last19', 19, 'first20', 'last20', 20, 010);
 
 
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (001, 'CS101', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (002, 'CS101', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (003, 'CS101', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (004, 'CS101', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (005, 'CS101', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (006, 'CS101', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (007, 'CS101', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (008, 'CS101', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (009, 'CS101', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (000, 'CS101', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (001, 'CP104', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (002, 'CP164', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (003, 'ES110', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (004, 'MA103', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (005, 'MA121', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (006, 'MA122', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (007, 'DATA100', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (008, 'CP102', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (009, 'PS101', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (000, 'GS101', '2022-09-01');
