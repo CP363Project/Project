@@ -160,3 +160,9 @@ INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID)
 INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('345 Walnut Ct', 'Halifax', 'Nova Scotia', 'Canada', 'B3H 4R2', 008);
 INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('901 Spruce Dr', 'Winnipeg', 'Manitoba', 'Canada', 'R3C 0B6', 009);
 INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('123 Pine St', 'Victoria', 'British Columbia', 'Canada', 'V8W 1Y5', 010);
+
+INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Double_Degree, Student_ID)VALUES (3.8, 'Mathematics', NULL, FALSE, 002);
+INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Double_Degree, Student_ID)VALUES (3.9, 'Computer Science', 'Sustainability', TRUE, 005);
+INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Double_Degree, Student_ID)VALUES (3.5, 'Engineering', NULL, TRUE, 008);
+INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Double_Degree, Student_ID)VALUES (3.7, 'Biology', 'Chemistry', FALSE, 009);
+
