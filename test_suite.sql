@@ -148,4 +148,4 @@ INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (00
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (007, 'DATA100', '2022-09-01');
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (008, 'CP102', '2022-09-01');
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (009, 'PS101', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (000, 'GS101', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (010, 'GG101', '2022-09-01');
