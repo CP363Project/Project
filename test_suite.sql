@@ -17,16 +17,30 @@ INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, Intern
 INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (009, 'Jane', 'Doe', 'Female', "She/Her", TRUE '2022-01-15', 3.7);
 INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (000, 'Clifford', 'Rock', 'Male', 'He/Him', FALSE, '2022-01-15', 3.1);
 
-INSERT INTO Contact_Information (Student_Email, Phone_Number, Emergency_Contact_1, Emergency_Contact_2, Student_ID) VALUES (bob@mylaurier.ca, 1, 2, 3, 001)
-INSERT INTO Contact_Information (Student_Email, Phone_Number, Emergency_Contact_1, Emergency_Contact_2, Student_ID) VALUES (ali@mylaurier.ca, 2, 3, 4, 002)
-INSERT INTO Contact_Information (Student_Email, Phone_Number, Emergency_Contact_1, Emergency_Contact_2, Student_ID) VALUES (dan@mylaurier.ca, 3, 4, 5, 003)
-INSERT INTO Contact_Information (Student_Email, Phone_Number, Emergency_Contact_1, Emergency_Contact_2, Student_ID) VALUES (cha@mylaurier.ca, 4, 5, 6, 004)
-INSERT INTO Contact_Information (Student_Email, Phone_Number, Emergency_Contact_1, Emergency_Contact_2, Student_ID) VALUES (del@mylaurier.ca, 5, 6, 7, 005)
-INSERT INTO Contact_Information (Student_Email, Phone_Number, Emergency_Contact_1, Emergency_Contact_2, Student_ID) VALUES (edw@mylaurier.ca, 6, 7, 8, 006)
-INSERT INTO Contact_Information (Student_Email, Phone_Number, Emergency_Contact_1, Emergency_Contact_2, Student_ID) VALUES (ril@mylaurier.ca, 7, 8, 9, 007)
-INSERT INTO Contact_Information (Student_Email, Phone_Number, Emergency_Contact_1, Emergency_Contact_2, Student_ID) VALUES (joh@mylaurier.ca, 8, 9, 0, 008)
-INSERT INTO Contact_Information (Student_Email, Phone_Number, Emergency_Contact_1, Emergency_Contact_2, Student_ID) VALUES (jan@mylaurier.ca, 9, 1, 1, 009)
-INSERT INTO Contact_Information (Student_Email, Phone_Number, Emergency_Contact_1, Emergency_Contact_2, Student_ID) VALUES (cli@mylaurier.ca, 0, 0, 2, 000)
+INSERT INTO Contact_Information (Student_Email,
+    Student_Email_2,
+    Phone_Number,
+    School_Name_1,
+    School_Name_2,
+    Emergency_Contact_Name_1,
+    Emergency_Contact_Number_1,
+    Emergency_Contact_Email_1,
+    Emergency_Contact_Name_2,
+    Emergency_Contact_Number_2,
+    Emergency_Contact_Email_2,
+    Student_ID) VALUES ('bob@mylaurier.ca', 'bob@uwaterloo.ca', 0000000001, 'Laurier', 'UWaterloo', 'first1', 'last1', 1, 'first2', 'last2', 2, 001);
+INSERT INTO Contact_Information (Student_Email,
+    Student_Email_2,
+    Phone_Number,
+    School_Name_1,
+    School_Name_2,
+    Emergency_Contact_Name_1,
+    Emergency_Contact_Number_1,
+    Emergency_Contact_Email_1,
+    Emergency_Contact_Name_2,
+    Emergency_Contact_Number_2,
+    Emergency_Contact_Email_2,
+    Student_ID) VALUES ('bob@mylaurier.ca', 'bob@uwaterloo.ca', 0000000001, 'Laurier', 'UWaterloo', 'first1', 'last1', 1, 'first2', 'last2', 2, 001);
 
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (001, 'CS101', '2022-09-01');
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (002, 'CS101', '2022-09-01');

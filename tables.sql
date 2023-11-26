@@ -46,8 +46,8 @@ CREATE TABLE Location (
 
 
 CREATE TABLE Contact_Information (
-    Student_Email VARCHAR(100),
-    Student_Email_2 VARCHAR(50) NOT NULL,
+    Student_Email VARCHAR(100) NOT NULL,
+    Student_Email_2 VARCHAR(50),
     Phone_Number VARCHAR(20),
     School_Name_1 VARCHAR(50) NOT NULL,
     School_Name_2 VARCHAR(50) NOT NULL,
