@@ -224,7 +224,7 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    ompletion_Status) VALUES ('CP164', 'Winter 2023', 'Dr. David Brown');
+    ompletion_Status) VALUES ('UU100', 'Winter 2023', 'Dr. David Brown');
 INSERT INTO Course (Course_Code, 
     Course_Name, 
     Semester, 
@@ -234,7 +234,7 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    Completion_Status) VALUES ('UU100', 'Winter 2023', 'Dr. Susan Cole');
+    Completion_Status) VALUES ('MA120', 'Winter 2023', 'Dr. Susan Cole');
 INSERT INTO Course (Course_Code, 
     Course_Name, 
     Semester, 
@@ -244,7 +244,7 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    Completion_Status) VALUES ('UU101', 'Winter 2023', 'Dr. Livia Dittmer');
+    Completion_Status) VALUES ('MA170', 'Winter 2023', 'Dr. Livia Dittmer');
 INSERT INTO Course (Course_Code, 
     Course_Name, 
     Semester, 
@@ -254,7 +254,7 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    Completion_Status) VALUES ('MA120', 'Winter 2023', 'Dr. Robert Rundle');
+    Completion_Status) VALUES ('UU101', 'Winter 2023', 'Dr. Robert Rundle');
 INSERT INTO Course (Course_Code, 
     Course_Name, 
     Semester, 
@@ -264,4 +264,4 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    Completion_Status) VALUES ('MA170', 'Winter 2023', 'Mr.Andrew Kabbes');
+    Completion_Status) VALUES ('GG101', 'Winter 2023', 'Mr.Andrew Kabbes');
