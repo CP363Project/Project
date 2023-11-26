@@ -52,7 +52,7 @@ INSERT INTO Contact_Information (Student_Email,
     Emergency_Contact_Name_2,
     Emergency_Contact_Number_2,
     Emergency_Contact_Email_2,
-    Student_ID) VALUES ('charlie@mylaurier.ca', 'charlie@uwaterloo.ca', 0000000003, 'Laurier', 'UWaterloo', 'first7', 'last7', 7, 'first8', 'last8', 8, 003);
+    Student_ID) VALUES ('dani@mylaurier.ca', 'none', 0000000003, 'Laurier', 'none', 'first5', 'last5', 5, 'first6', 'last6', 6, 003);
 INSERT INTO Contact_Information (Student_Email,
     Student_Email_2,
     Phone_Number,
@@ -64,7 +64,20 @@ INSERT INTO Contact_Information (Student_Email,
     Emergency_Contact_Name_2,
     Emergency_Contact_Number_2,
     Emergency_Contact_Email_2,
-    Student_ID) VALUES ('bob@mylaurier.ca', 'bob@uwaterloo.ca', 0000000001, 'Laurier', 'UWaterloo', 'first1', 'last1', 1, 'first2', 'last2', 2, 001);
+    Student_ID) VALUES ('charlie@mylaurier.ca', 'charlie@uwaterloo.ca', 0000000004, 'Laurier', 'UWaterloo', 'first7', 'last7', 7, 'first8', 'last8', 8, 004);
+INSERT INTO Contact_Information (Student_Email,
+    Student_Email_2,
+    Phone_Number,
+    School_Name_1,
+    School_Name_2,
+    Emergency_Contact_Name_1,
+    Emergency_Contact_Number_1,
+    Emergency_Contact_Email_1,
+    Emergency_Contact_Name_2,
+    Emergency_Contact_Number_2,
+    Emergency_Contact_Email_2,
+    Student_ID) VALUES ('delta@mylaurier.ca', 'delta@uwaterloo.ca', 0000000005, 'Laurier', 'UWaterloo', 'first9', 'last9', 9, 'first10', 'last10', 10, 005);
+
 
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (001, 'CS101', '2022-09-01');
 INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (002, 'CS101', '2022-09-01');
