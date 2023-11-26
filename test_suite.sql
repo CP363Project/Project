@@ -184,7 +184,7 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    Completion_Status) VALUES ('CP164', 'Introduction to Programming', 'Fall 2022', 'Mr. David Brown', 90, NULL, NULL, 83, 86, TRUE); 
+    Completion_Status) VALUES ('CP164', 'Data Structures I', 'Fall 2022', 'Mr. David Brown', 68, NULL, 84, 59, 77, TRUE); 
 INSERT INTO Course (Course_Code, 
     Course_Name, 
     Semester, 
@@ -194,7 +194,7 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    Completion_Status) VALUES ('ES110', 'Introduction to Programming', 'Fall 2022', 'Dr. Robert Mcleman', 90, NULL, NULL, 83, 86, TRUE);
+    Completion_Status) VALUES ('ES110', 'Environmental Studies', 'Fall 2022', 'Dr. Robert Mcleman', 90, 82, NULL, 86, 85, TRUE);
 INSERT INTO Course (Course_Code, 
     Course_Name, 
     Semester, 
@@ -204,7 +204,7 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    Completion_Status) VALUES ('DATA100', 'Fall 2022', 'Dr. Shengda Hu');
+    Completion_Status) VALUES ('DATA100', 'Data Analysis', 'Fall 2022', 'Dr. Shengda Hu', 62, NULL, 71, 64, 68, TRUE);
 INSERT INTO Course (Course_Code, 
     Course_Name, 
     Semester, 
@@ -214,7 +214,7 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    Completion_Status) VALUES ('MA103', 'Fall 2022', 'Dr. Fei Xu');
+    Completion_Status) VALUES ('MA103', 'Calculus I', 'Fall 2022', 'Dr. Fei Xu', 77, 66, NULL, 61, 65, TRUE);
 INSERT INTO Course (Course_Code, 
     Course_Name, 
     Semester, 
