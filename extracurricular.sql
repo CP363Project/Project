@@ -1,0 +1,32 @@
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C001', 'Chess Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C203', 'COC Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C211', 'CS Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C231', 'Data Science Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C901', 'Sustainability Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C980', 'Writing Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C541', 'Adventure Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C301', 'Photography Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C591', 'Cricket Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C981', 'Wrestling Club');
+
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J001', 'Hawk Shop Cashier');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J022', 'Proctor');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J103', 'Systems Desk Analyst');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J304', 'IA');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J405', 'Librarian');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J606', 'Food Court Crew Member');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J007', 'TA');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J212', 'Prism Resource Representative');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J242', 'Admin Intern');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J442', 'SU President'); 
+
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C001', 'J001', 001);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C203', 'J022', 002);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C211', 'J103', 003);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C231', 'J304', 004);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C901', 'J405', 005);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C980', 'J606', 006);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C541', 'J007', 007);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C301', 'J212', 008);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C591', 'J242', 009);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C981', 'J442', 010);

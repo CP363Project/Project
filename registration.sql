@@ -1,0 +1,10 @@
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (001, 'CP104', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (002, 'CP164', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (003, 'ES110', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (004, 'DATA100', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (005, 'MA103', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (006, 'UU100', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (007, 'MA120', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (008, 'MA170', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (009, 'UU101', '2022-09-01');
+INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (010, 'GG101', '2022-09-01');

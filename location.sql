@@ -1,0 +1,10 @@
+INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('123 Main St', 'Waterloo', 'Ontario', 'Canada', 'N2L 3C5', 001);
+INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('456 Oak St', 'Toronto', 'Ontario', 'Canada', 'M4W 2H1', 002);
+INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('789 Pine St', 'Vancouver', 'British Columbia', 'Canada', 'V6B 1S4', 003);
+INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('567 Maple Ave', 'Calgary', 'Alberta', 'Canada', 'T2P 2M1', 004);
+INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('890 Elm Rd', 'Montreal', 'Quebec', 'Canada', 'H3B 2L7', 005);
+INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('234 Birch Blvd', 'Edmonton', 'Alberta', 'Canada', 'T5J 0V4', 006);
+INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('678 Cedar Ln', 'Ottawa', 'Ontario', 'Canada', 'K1P 5C9', 007);
+INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('345 Walnut Ct', 'Halifax', 'Nova Scotia', 'Canada', 'B3H 4R2', 008);
+INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('901 Spruce Dr', 'Winnipeg', 'Manitoba', 'Canada', 'R3C 0B6', 009);
+INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('123 Pine St', 'Victoria', 'British Columbia', 'Canada', 'V8W 1Y5', 010);

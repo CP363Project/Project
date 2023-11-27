@@ -13,13 +13,13 @@ CREATE TABLE Student (
 CREATE TABLE Course (
     Course_Code VARCHAR(15) NOT NULL,
     Course_Name VARCHAR(50) NOT NULL,
-    Semester VARCHAR(10) NOT NULL,
+    Semester VARCHAR(50) NOT NULL,
     Instructor_Name VARCHAR(50) NOT NULL,
-    Midterm_1_Grade DECIMAL(3, 2),
-    Midterm_2_Grade DECIMAL(3, 2),
-    Project_Grade DECIMAL(3, 2),
-    Final_Exam_Grade DECIMAL(3, 2) NOT NULL,
-    Final_Grade DECIMAL(3, 2),
+    Midterm_1_Grade DECIMAL(4, 2),
+    Midterm_2_Grade DECIMAL(4, 2),
+    Project_Grade DECIMAL(4, 2),
+    Final_Exam_Grade DECIMAL(4, 2) NOT NULL,
+    Final_Grade DECIMAL(4, 2),
     Completion_Status BOOLEAN NOT NULL,
     PRIMARY KEY (Course_Code)
 );
