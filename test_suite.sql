@@ -53,7 +53,20 @@ START TRANSACTION;
 
 UPDATE Student SET Overall_GPA = 3.3 WHERE Student_ID = 006;
 INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (011, 'Ida', 'Humphrey', 'Female', 'She/Her', TRUE, '2022-01-15', 3.6);
+INSERT INTO Contact_Information (Student_Email,
+    Student_Email_2,
+    Phone_Number,
+    School_Name_1,
+    School_Name_2,
+    Emergency_Contact_Name_1,
+    Emergency_Contact_Number_1,
+    Emergency_Contact_Email_1,
+    Emergency_Contact_Name_2,
+    Emergency_Contact_Number_2,
+    Emergency_Contact_Email_2,
+    Student_ID) VALUES ('ida@mylaurier.ca', 'none', 0000000011, 'Laurier', 'none', 'first21', 'last21', 21, 'first22', 'last22', 22, 011);
 DELETE FROM Student WHERE Student_ID = 007;
+DELETE FROM Contact_Information WHERE Student_ID = 007;
 SELECT * FROM Student;
 
 ROLLBACK;
