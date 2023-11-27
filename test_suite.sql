@@ -35,11 +35,6 @@ FROM Extracurricular
 JOIN Clubs ON Extracurricular.Club_ID = Clubs.Club_ID
 JOIN Jobs ON Extracurricular.Job_ID = Jobs.Job_ID;
 
---inner join
-SELECT Student.Student_ID, Graduate.Undergraduate_Degree FROM Student
-INNER JOIN Graduate
-ON Student.Student_ID = Graduate.Student_ID;
-
 --join subset to table
 SELECT Location.Address, Location.City, Location.Province, Location.Country, Location.Postal_Code, Student.Student_ID, Student.First_Name, Student.Last_Name
 FROM Location
