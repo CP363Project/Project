@@ -1,0 +1,10 @@
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (001, 'Bob', 'Johnson', 'Male', 'He/Him', FALSE, '2022-01-20', 4.0);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (002, 'Alice', 'Smith', 'Female', 'She/Her', FALSE, '2022-01-15', 3.8);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (003, 'Dani', 'Harvey', 'Male', 'He/Him', TRUE, '2022-01-15', 3.6);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (004, 'Charlie', 'Smith', 'Male', 'He/Him', FALSE, '2022-01-15', 3.4);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (005, 'Delta', 'Thorne', 'Male', 'He/Him', TRUE, '2022-01-15', 3.9);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (006, 'Edward', 'Jackson', 'Male', 'He/Him', FALSE, '2022-01-15', 3.1);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (007, 'Riley', 'Weathers', 'Female', 'She/Her', TRUE, '2022-01-15', 4.0);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (008, 'John', 'Doe', 'Male', 'He/Him', FALSE, '2022-01-15', 3.5);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (009, 'Jane', 'Doe', 'Female', 'She/Her', TRUE, '2022-01-15', 3.7);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (010, 'Clifford', 'Rock', 'Male', 'He/Him', FALSE, '2022-01-15', 3.1);
