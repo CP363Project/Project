@@ -1,8 +1,19 @@
 --force positive values
 INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Double_Degree, Student_ID) VALUES (-3.0, 'Physics', 'none', FALSE, 904);
 
---make sure keys are not duplicated
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (001, 'Alice', 'Smith', 'Female', 'She/Her', FALSE, '2022-01-15', 3.8);
+--make sure values are not duplicated
+INSERT INTO Contact_Information (Student_Email,
+    Student_Email_2,
+    Phone_Number,
+    School_Name_1,
+    School_Name_2,
+    Emergency_Contact_Name_1,
+    Emergency_Contact_Number_1,
+    Emergency_Contact_Email_1,
+    Emergency_Contact_Name_2,
+    Emergency_Contact_Number_2,
+    Emergency_Contact_Email_2,
+    Student_ID) VALUES ('charlie@mylaurier.ca', 'charlie@uwaterloo.ca', 0000000003, 'Laurier', 'UWaterloo', 'first7', 'last7', 7, 'first8', 'last8', 8, 004);
 
 --make sure value in field is not null
 INSERT INTO Course (Course_Code, 
@@ -28,6 +39,11 @@ JOIN Jobs ON Extracurricular.Job_ID = Jobs.Job_ID;
 SELECT Student.Student_ID, Graduate.Undergraduate_Degree FROM Student
 INNER JOIN Graduate
 ON Student.Student_ID = Graduate.Student_ID;
+
+--join subset to table
+SELECT Location.Address, Location.City, Location.Province, Location.Country, Location.Postal_Code, Student.Student_ID, Student.First_Name, Student.Last_Name
+FROM Location
+INNER JOIN Student ON Location.Student_ID = Student.Student_ID;
 
 --self join
 SELECT A.Student_ID AS id1, B.Student_ID AS id2, A.Province

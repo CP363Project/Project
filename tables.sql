@@ -56,7 +56,8 @@ CREATE TABLE Contact_Information (
     Emergency_Contact_Number_2 VARCHAR(15) NOT NULL,
     Emergency_Contact_Email_2 VARCHAR(50) NOT NULL,
     Student_ID INT NOT NULL,
-    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID)
+    FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID),
+    UNIQUE (Phone_Number)
 );
 
 CREATE TABLE Jobs (
