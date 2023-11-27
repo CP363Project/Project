@@ -1,162 +1,15 @@
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (001, 'Bob', 'Johnson', 'Male', 'He/Him', FALSE, '2022-01-20', 4.0);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (002, 'Alice', 'Smith', 'Female', 'She/Her', FALSE, '2022-01-15', 3.8);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (003, 'Dani', 'Harvey', 'Male', 'He/Him', TRUE, '2022-01-15', 3.6);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (004, 'Charlie', 'Smith', 'Male', 'He/Him', FALSE, '2022-01-15', 3.4);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (005, 'Delta', 'Thorne', 'Male', 'He/Him', TRUE, '2022-01-15', 3.9);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (006, 'Edward', 'Jackson', 'Male', 'He/Him', FALSE, '2022-01-15', 3.1);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (007, 'Riley', 'Weathers', 'Female', 'She/Her', TRUE, '2022-01-15', 4.0);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (008, 'John', 'Doe', 'Male', 'He/Him', FALSE, '2022-01-15', 3.5);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (009, 'Jane', 'Doe', 'Female', 'She/Her', TRUE, '2022-01-15', 3.7);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (010, 'Clifford', 'Rock', 'Male', 'He/Him', FALSE, '2022-01-15', 3.1);
+-- crud operations
 
-INSERT INTO Contact_Information (Student_Email,
-    Student_Email_2,
-    Phone_Number,
-    School_Name_1,
-    School_Name_2,
-    Emergency_Contact_Name_1,
-    Emergency_Contact_Number_1,
-    Emergency_Contact_Email_1,
-    Emergency_Contact_Name_2,
-    Emergency_Contact_Number_2,
-    Emergency_Contact_Email_2,
-    Student_ID) VALUES ('bob@mylaurier.ca', 'bob@uwaterloo.ca', 0000000001, 'Laurier', 'UWaterloo', 'first1', 'last1', 1, 'first2', 'last2', 2, 001);
-INSERT INTO Contact_Information (Student_Email,
-    Student_Email_2,
-    Phone_Number,
-    School_Name_1,
-    School_Name_2,
-    Emergency_Contact_Name_1,
-    Emergency_Contact_Number_1,
-    Emergency_Contact_Email_1,
-    Emergency_Contact_Name_2,
-    Emergency_Contact_Number_2,
-    Emergency_Contact_Email_2,
-    Student_ID) VALUES ('alice@mylaurier.ca', 'none', 0000000002, 'Laurier', 'none', 'first3', 'last3', 3, 'first4', 'last4', 4, 002);
-INSERT INTO Contact_Information (Student_Email,
-    Student_Email_2,
-    Phone_Number,
-    School_Name_1,
-    School_Name_2,
-    Emergency_Contact_Name_1,
-    Emergency_Contact_Number_1,
-    Emergency_Contact_Email_1,
-    Emergency_Contact_Name_2,
-    Emergency_Contact_Number_2,
-    Emergency_Contact_Email_2,
-    Student_ID) VALUES ('dani@mylaurier.ca', 'none', 0000000003, 'Laurier', 'none', 'first5', 'last5', 5, 'first6', 'last6', 6, 003);
-INSERT INTO Contact_Information (Student_Email,
-    Student_Email_2,
-    Phone_Number,
-    School_Name_1,
-    School_Name_2,
-    Emergency_Contact_Name_1,
-    Emergency_Contact_Number_1,
-    Emergency_Contact_Email_1,
-    Emergency_Contact_Name_2,
-    Emergency_Contact_Number_2,
-    Emergency_Contact_Email_2,
-    Student_ID) VALUES ('charlie@mylaurier.ca', 'charlie@uwaterloo.ca', 0000000004, 'Laurier', 'UWaterloo', 'first7', 'last7', 7, 'first8', 'last8', 8, 004);
-INSERT INTO Contact_Information (Student_Email,
-    Student_Email_2,
-    Phone_Number,
-    School_Name_1,
-    School_Name_2,
-    Emergency_Contact_Name_1,
-    Emergency_Contact_Number_1,
-    Emergency_Contact_Email_1,
-    Emergency_Contact_Name_2,
-    Emergency_Contact_Number_2,
-    Emergency_Contact_Email_2,
-    Student_ID) VALUES ('delta@mylaurier.ca', 'delta@uwaterloo.ca', 0000000005, 'Laurier', 'UWaterloo', 'first9', 'last9', 9, 'first10', 'last10', 10, 005);
-INSERT INTO Contact_Information (Student_Email,
-    Student_Email_2,
-    Phone_Number,
-    School_Name_1,
-    School_Name_2,
-    Emergency_Contact_Name_1,
-    Emergency_Contact_Number_1,
-    Emergency_Contact_Email_1,
-    Emergency_Contact_Name_2,
-    Emergency_Contact_Number_2,
-    Emergency_Contact_Email_2,
-    Student_ID) VALUES ('edward@mylaurier.ca', 'none', 0000000006, 'Laurier', 'none', 'first11', 'last11', 11, 'first12', 'last12', 12, 006);
-INSERT INTO Contact_Information (Student_Email,
-    Student_Email_2,
-    Phone_Number,
-    School_Name_1,
-    School_Name_2,
-    Emergency_Contact_Name_1,
-    Emergency_Contact_Number_1,
-    Emergency_Contact_Email_1,
-    Emergency_Contact_Name_2,
-    Emergency_Contact_Number_2,
-    Emergency_Contact_Email_2,
-    Student_ID) VALUES ('riley@mylaurier.ca', 'none', 0000000007, 'Laurier', 'none', 'first13', 'last13', 13, 'first14', 'last14', 14, 007);
-INSERT INTO Contact_Information (Student_Email,
-    Student_Email_2,
-    Phone_Number,
-    School_Name_1,
-    School_Name_2,
-    Emergency_Contact_Name_1,
-    Emergency_Contact_Number_1,
-    Emergency_Contact_Email_1,
-    Emergency_Contact_Name_2,
-    Emergency_Contact_Number_2,
-    Emergency_Contact_Email_2,
-    Student_ID) VALUES ('john@mylaurier.ca', 'john@uwaterloo.ca', 0000000008, 'Laurier', 'UWaterloo', 'first15', 'last15', 15, 'first16', 'last16', 16, 008);
-INSERT INTO Contact_Information (Student_Email,
-    Student_Email_2,
-    Phone_Number,
-    School_Name_1,
-    School_Name_2,
-    Emergency_Contact_Name_1,
-    Emergency_Contact_Number_1,
-    Emergency_Contact_Email_1,
-    Emergency_Contact_Name_2,
-    Emergency_Contact_Number_2,
-    Emergency_Contact_Email_2,
-    Student_ID) VALUES ('jane@mylaurier.ca', 'none', 0000000009, 'Laurier', 'none', 'first17', 'last17', 17, 'first18', 'last18', 18, 009);
-INSERT INTO Contact_Information (Student_Email,
-    Student_Email_2,
-    Phone_Number,
-    School_Name_1,
-    School_Name_2,
-    Emergency_Contact_Name_1,
-    Emergency_Contact_Number_1,
-    Emergency_Contact_Email_1,
-    Emergency_Contact_Name_2,
-    Emergency_Contact_Number_2,
-    Emergency_Contact_Email_2,
-    Student_ID) VALUES ('clifford@mylaurier.ca', 'clifford@uwaterloo.ca', 0000000010, 'Laurier', 'UWaterloo', 'first19', 'last19', 19, 'first20', 'last20', 20, 010);
 
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (001, 'CP104', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (002, 'CP164', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (003, 'ES110', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (004, 'DATA100', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (005, 'MA103', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (006, 'UU100', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (007, 'MA120', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (008, 'MA170', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (009, 'UU101', '2022-09-01');
-INSERT INTO Registration (Student_ID, Course_Code, Registration_Date) VALUES (010, 'GG101', '2022-09-01');
+-- error handling
 
-INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('123 Main St', 'Waterloo', 'Ontario', 'Canada', 'N2L 3C5', 001);
-INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('456 Oak St', 'Toronto', 'Ontario', 'Canada', 'M4W 2H1', 002);
-INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('789 Pine St', 'Vancouver', 'British Columbia', 'Canada', 'V6B 1S4', 003);
-INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('567 Maple Ave', 'Calgary', 'Alberta', 'Canada', 'T2P 2M1', 004);
-INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('890 Elm Rd', 'Montreal', 'Quebec', 'Canada', 'H3B 2L7', 005);
-INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('234 Birch Blvd', 'Edmonton', 'Alberta', 'Canada', 'T5J 0V4', 006);
-INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('678 Cedar Ln', 'Ottawa', 'Ontario', 'Canada', 'K1P 5C9', 007);
-INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('345 Walnut Ct', 'Halifax', 'Nova Scotia', 'Canada', 'B3H 4R2', 008);
-INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('901 Spruce Dr', 'Winnipeg', 'Manitoba', 'Canada', 'R3C 0B6', 009);
-INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('123 Pine St', 'Victoria', 'British Columbia', 'Canada', 'V8W 1Y5', 010);
+--force positive values
+INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Double_Degree, Student_ID) VALUES (-3.0, 'Physics', 'none', FALSE, 904);
 
-INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Double_Degree, Student_ID)VALUES (3.8, 'Mathematics', NULL, FALSE, 002);
-INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Double_Degree, Student_ID)VALUES (3.9, 'Computer Science', 'Sustainability', TRUE, 005);
-INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Double_Degree, Student_ID)VALUES (3.5, 'Engineering', NULL, TRUE, 008);
-INSERT INTO GRADUATE (Undergraduate_GPA, Undergraduate_Degree, Program_Minor, Double_Degree, Student_ID)VALUES (3.7, 'Biology', 'Chemistry', FALSE, 009);
+--make sure keys are not duplicated
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (001, 'Alice', 'Smith', 'Female', 'She/Her', FALSE, '2022-01-15', 3.8);
 
+--make sure value in field is not null
 INSERT INTO Course (Course_Code, 
     Course_Name, 
     Semester, 
@@ -166,133 +19,25 @@ INSERT INTO Course (Course_Code,
     Project_Grade, 
     Final_Exam_Grade, 
     Final_Grade, 
-    Completion_Status) VALUES ('CP104', 'Introduction to Programming', 'Fall 2022', 'Dr. Safah Bedawi', 90, NULL, NULL, 83, 86, TRUE);
-INSERT INTO Course (Course_Code, 
-    Course_Name, 
-    Semester, 
-    Instructor_Name, 
-    Midterm_1_Grade, 
-    Midterm_2_Grade, 
-    Project_Grade, 
-    Final_Exam_Grade, 
-    Final_Grade, 
-    Completion_Status) VALUES ('CP164', 'Data Structures I', 'Fall 2022', 'Mr. David Brown', 68, NULL, 84, 59, 77, TRUE); 
-INSERT INTO Course (Course_Code, 
-    Course_Name, 
-    Semester, 
-    Instructor_Name, 
-    Midterm_1_Grade, 
-    Midterm_2_Grade, 
-    Project_Grade, 
-    Final_Exam_Grade, 
-    Final_Grade, 
-    Completion_Status) VALUES ('ES110', 'Environmental Studies', 'Fall 2022', 'Dr. Robert Mcleman', 90, 82, NULL, 86, 85, TRUE);
-INSERT INTO Course (Course_Code, 
-    Course_Name, 
-    Semester, 
-    Instructor_Name, 
-    Midterm_1_Grade, 
-    Midterm_2_Grade, 
-    Project_Grade, 
-    Final_Exam_Grade, 
-    Final_Grade, 
-    Completion_Status) VALUES ('DATA100', 'Data Analysis', 'Fall 2022', 'Dr. Shengda Hu', 62, NULL, 71, 64, 68, TRUE);
-INSERT INTO Course (Course_Code, 
-    Course_Name, 
-    Semester, 
-    Instructor_Name, 
-    Midterm_1_Grade, 
-    Midterm_2_Grade, 
-    Project_Grade, 
-    Final_Exam_Grade, 
-    Final_Grade, 
-    Completion_Status) VALUES ('MA103', 'Calculus I', 'Fall 2022', 'Dr. Fei Xu', 77, 66, NULL, 61, 65, TRUE);
-INSERT INTO Course (Course_Code, 
-    Course_Name, 
-    Semester, 
-    Instructor_Name, 
-    Midterm_1_Grade, 
-    Midterm_2_Grade, 
-    Project_Grade, 
-    Final_Exam_Grade, 
-    Final_Grade, 
-    ompletion_Status) VALUES ('UU100', 'Mental Health', 'Winter 2023', 'Dr. Susan Cole', NULL, NULL, NULL, 0, NULL, FALSE);
-INSERT INTO Course (Course_Code, 
-    Course_Name, 
-    Semester, 
-    Instructor_Name, 
-    Midterm_1_Grade, 
-    Midterm_2_Grade, 
-    Project_Grade, 
-    Final_Exam_Grade, 
-    Final_Grade, 
-    Completion_Status) VALUES ('MA120', 'Discrete Structures', 'Winter 2023', 'Dr. Robert Rundle', NULL, NULL, NULL, 0, NULL, FALSE);
-INSERT INTO Course (Course_Code, 
-    Course_Name, 
-    Semester, 
-    Instructor_Name, 
-    Midterm_1_Grade, 
-    Midterm_2_Grade, 
-    Project_Grade, 
-    Final_Exam_Grade, 
-    Final_Grade, 
-    Completion_Status) VALUES ('MA170', 'Mathematics for Finance', 'Winter 2023', 'Mr. Andrew Kabbes', NULL, NULL, NULL, 0, NULL, FALSE);
-INSERT INTO Course (Course_Code, 
-    Course_Name, 
-    Semester, 
-    Instructor_Name, 
-    Midterm_1_Grade, 
-    Midterm_2_Grade, 
-    Project_Grade, 
-    Final_Exam_Grade, 
-    Final_Grade, 
-    Completion_Status) VALUES ('UU101', 'Sustainability', 'Winter 2023', 'Dr. Livia Dittmer', NULL, NULL, NULL, 0, NULL, FALSE);
-INSERT INTO Course (Course_Code, 
-    Course_Name, 
-    Semester, 
-    Instructor_Name, 
-    Midterm_1_Grade, 
-    Midterm_2_Grade, 
-    Project_Grade, 
-    Final_Exam_Grade, 
-    Final_Grade, 
-    Completion_Status) VALUES ('GG101', 'Geology', 'Winter 2023', 'Dr. Michael Bitton', NULL, NULL, NULL, 0, NULL, FALSE);
+    Completion_Status) VALUES ('MA120', 'Discrete Structures', 'Winter 2023', 'Dr. Robert Rundle', NULL, NULL, NULL, 0.00, NULL, NULL);
 
-INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C001', 'J001', 001);
-INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C203', 'J022', 002);
-INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C211', 'J103', 003);
-INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C231', 'J304', 004);
-INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C901', 'J405', 005);
-INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C980', 'J606', 006);
-INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C541', 'J007', 007);
-INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C301', 'J212', 008);
-INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C591', 'J242', 009);
-INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C981', 'J442', 010);
+-- joins
 
-INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C001', 'Chess Club');
-INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C203', 'COC Club');
-INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C211', 'CS Club');
-INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C231', 'Data Science Club');
-INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C901', 'Sustainability Club');
-INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C980', 'Writing Club');
-INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C541', 'Adventure Club');
-INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C301', 'Photography Club');
-INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C591', 'Cricket Club');
-INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C981', 'Wrestling Club');
+--inner join
+SELECT Student.Student_ID, Graduate.Undergraduate_Degree FROM Student
+INNER JOIN Graduate
+ON Student.Student_ID = Graduate.Student_ID;
 
-INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J001', 'Hawk Shop Cashier');
-INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J022', 'Proctor');
-INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J103', 'Systems Desk Analyst');
-INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J304', 'IA');
-INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J405', 'Librarian');
-INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J606', 'Food Court Crew Member');
-INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J007', 'TA');
-INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J212', 'Prism Resource Representative');
-INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J242', 'Admin Intern');
-INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J442', 'SU President'); 
+--aggregate join
 
-INSERT INTO Second_Major (Student_ID, Student_ID_2, School_Name_2, Student_Email_2) VALUES (001, 021, 'UWaterloo', 'bob@uwaterloo.ca');
-INSERT INTO Second_Major (Student_ID, Student_ID_2, School_Name_2, Student_Email_2) VALUES (004, 024, 'UWaterloo', 'charlie@uwaterloo.ca');
-INSERT INTO Second_Major (Student_ID, Student_ID_2, School_Name_2, Student_Email_2) VALUES (005, 025, 'UWaterloo', 'delta@uwaterloo.ca');
-INSERT INTO Second_Major (Student_ID, Student_ID_2, School_Name_2, Student_Email_2) VALUES (008, 028, 'UWaterloo', 'john@uwaterloo.ca');
-INSERT INTO Second_Major (Student_ID, Student_ID_2, School_Name_2, Student_Email_2) VALUES (010, 210, 'UWaterloo', 'clifford@uwaterloo.ca');
+
+--self join
+SELECT A.Student_ID AS id1, B.Student_ID AS id2, A.Province
+FROM Location A, Location B
+WHERE A.Student_ID <> B.Student_ID
+AND A.Province = B.Province
+ORDER BY A.City;
+
+-- pattern matching
+
+-- transactions
