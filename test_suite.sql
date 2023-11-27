@@ -55,6 +55,7 @@ SELECT AVG(Overall_GPA), MIN(Overall_GPA), MAX(Overall_GPA) FROM Student;
 START TRANSACTION;
 
 DELETE FROM Contact_Information WHERE School_Name_2 = 'none';
+SELECT * FROM Contact_Information;
 
 ROLLBACK;
 COMMIT;
@@ -76,8 +77,8 @@ INSERT INTO Contact_Information (Student_Email,
     Emergency_Contact_Number_2,
     Emergency_Contact_Email_2,
     Student_ID) VALUES ('ida@mylaurier.ca', 'none', 0000000011, 'Laurier', 'none', 'first21', 'last21', 21, 'first22', 'last22', 22, 011);
-DELETE FROM Student WHERE Student_ID = 007;
 DELETE FROM Contact_Information WHERE Student_ID = 007;
+DELETE FROM Student WHERE Student_ID = 007;
 SELECT * FROM Student;
 
 ROLLBACK;
