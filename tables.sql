@@ -33,7 +33,6 @@ CREATE TABLE Registration (
     PRIMARY KEY (Student_ID, Course_Code)
 );
 
-
 CREATE TABLE Location (
     Address VARCHAR(100) NOT NULL,
     City VARCHAR(50) NOT NULL,
@@ -43,7 +42,6 @@ CREATE TABLE Location (
     Student_ID INT NOT NULL,
     FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID)
 );
-
 
 CREATE TABLE Contact_Information (
     Student_Email VARCHAR(100) NOT NULL,
@@ -66,8 +64,6 @@ CREATE TABLE Jobs (
     Job_Name VARCHAR(50) NOT NULL,
     PRIMARY KEY (Job_ID)
 );
-
-
 
 CREATE TABLE Clubs (
     Club_ID VARCHAR(50) NOT NULL,
@@ -92,7 +88,6 @@ CREATE TABLE Graduate (
     Student_ID INT NOT NULL,
     FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID)
 );
-
 
 CREATE TABLE Second_Major (
     Student_ID INT NOT NULL,

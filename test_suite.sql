@@ -7,15 +7,15 @@ DELETE FROM Course WHERE Course_Code = 'CS101';
 INSERT INTO Location (Address, City, Province, Country, Postal_Code, Student_ID) VALUES ('123 Main St', 'Waterloo', 'Ontario', 'Canada', 'N2L 3C5', 101);
 
 INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (001, 'Bob', 'Johnson', 'Male', 'He/Him', FALSE, '2022-01-20', 4.0);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (002, 'Alice', 'Smith', 'Female', "She/Her", FALSE '2022-01-15', 3.8);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (002, 'Alice', 'Smith', 'Female', 'She/Her', FALSE '2022-01-15', 3.8);
 INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (003, 'Dani', 'Harvey', 'Male', 'He/Him', TRUE, '2022-01-15', 3.6);
 INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (004, 'Charlie', 'Smith', 'Male', 'He/Him', FALSE, '2022-01-15', 3.4);
 INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (005, 'Delta', 'Thorne', 'Male', 'He/Him', TRUE, '2022-01-15', 3.9);
 INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (006, 'Edward', 'Jackson', 'Male', 'He/Him', FALSE, '2022-01-15', 3.1);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (007, 'Riley', 'Weathers', 'Female', "She/Her", TRUE '2022-01-15', 4.0);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (007, 'Riley', 'Weathers', 'Female', 'She/Her', TRUE '2022-01-15', 4.0);
 INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (008, 'John', 'Doe', 'Male', 'He/Him', FALSE, '2022-01-15', 3.5);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (009, 'Jane', 'Doe', 'Female', "She/Her", TRUE '2022-01-15', 3.7);
-INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (000, 'Clifford', 'Rock', 'Male', 'He/Him', FALSE, '2022-01-15', 3.1);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (009, 'Jane', 'Doe', 'Female', 'She/Her', TRUE '2022-01-15', 3.7);
+INSERT INTO Student (Student_ID, First_Name, Last_Name, Gender, Pronouns, International_Student, Date_of_Admission, Overall_GPA) VALUES (010, 'Clifford', 'Rock', 'Male', 'He/Him', FALSE, '2022-01-15', 3.1);
 
 INSERT INTO Contact_Information (Student_Email,
     Student_Email_2,
@@ -265,3 +265,42 @@ INSERT INTO Course (Course_Code,
     Final_Exam_Grade, 
     Final_Grade, 
     Completion_Status) VALUES ('GG101', 'Geology', 'Winter 2023', 'Dr. Michael Bitton', NULL, NULL, NULL, 0, NULL, FALSE);
+
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C001', 'J001', 001);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C203', 'J022', 002);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C211', 'J103', 003);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C231', 'J304', 004);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C901', 'J405', 005);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C980', 'J606', 006);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C541', 'J007', 007);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C301', 'J212', 008);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C591', 'J242', 009);
+INSERT INTO Extracurricular (Club_ID, Job_ID, Student_ID) VALUES ('C981', 'J442', 010);
+
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C001', 'Chess Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C203', 'COC Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C211', 'CS Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C231', 'Data Science Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C901', 'Sustainability Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C980', 'Writing Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C541', 'Adventure Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C301', 'Photography Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C591', 'Cricket Club');
+INSERT INTO Clubs (Club_ID, Club_Name) VALUES ('C981', 'Wrestling Club');
+
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J001', 'Hawk Shop Cashier');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J022', 'Proctor');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J103', 'Systems Desk Analyst');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J304', 'IA');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J405', 'Librarian');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J606', 'Food Court Crew Member');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J007', 'TA');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J212', 'Prism Resource Representative');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J242', 'Admin Intern');
+INSERT INTO Jobs (Job_ID, Job_Name) VALUES ('J442', 'SU President'); 
+
+INSERT INTO Second_Major (Student_ID, Student_ID_2, School_Name_2, Student_Email_2) VALUES (001, 021, 'UWaterloo', 'bob@uwaterloo.ca');
+INSERT INTO Second_Major (Student_ID, Student_ID_2, School_Name_2, Student_Email_2) VALUES (004, 024, 'UWaterloo', 'charlie@uwaterloo.ca');
+INSERT INTO Second_Major (Student_ID, Student_ID_2, School_Name_2, Student_Email_2) VALUES (005, 025, 'UWaterloo', 'delta@uwaterloo.ca');
+INSERT INTO Second_Major (Student_ID, Student_ID_2, School_Name_2, Student_Email_2) VALUES (008, 028, 'UWaterloo', 'john@uwaterloo.ca');
+INSERT INTO Second_Major (Student_ID, Student_ID_2, School_Name_2, Student_Email_2) VALUES (010, 210, 'UWaterloo', 'clifford@uwaterloo.ca');
